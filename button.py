@@ -224,19 +224,19 @@ red_menu = InlineKeyboardMarkup(
 	inline_keyboard = [
 
 		[
-				InlineKeyboardButton(text = "Xiomi Mi 11",callback_data = "m11"),InlineKeyboardButton(text = "Xiomi Mi 10T Pro",callback_data = "m10")
+				InlineKeyboardButton(text = "Xiomi Mi 11",callback_data = "m11"),InlineKeyboardButton(text = "Xiomi Mi 10T Pro",callback_data = "mi10")
 		],
 		[
-				InlineKeyboardButton(text = "Xiomi Poco F3",callback_data = "f3"),InlineKeyboardButton(text = "Xiomi Mi 10T",callback_data = "t10")
+				InlineKeyboardButton(text = "Xiomi Poco F3",callback_data = "pocof3"),InlineKeyboardButton(text = "Xiomi Mi 10T",callback_data = "mit10")
 		],
 		[
-				InlineKeyboardButton(text = "Xiomi Redmi not 10",callback_data = "not10"),InlineKeyboardButton(text = "Xiomi redmi not 10 pro",callback_data = "n0t9")
+				InlineKeyboardButton(text = "Xiomi Redmi not 10",callback_data = "minot10"),InlineKeyboardButton(text = "Xiomi redmi not 10 pro",callback_data = "n0t9")
 		],
 		[
-				InlineKeyboardButton(text = "Xiomi Poco x3",callback_data = "x3"),InlineKeyboardButton(text = "Xiomi Redmi 9T",callback_data = "9t")
+				InlineKeyboardButton(text = "Xiomi Poco x3",callback_data = "pocox3"),InlineKeyboardButton(text = "Xiomi Redmi 9T",callback_data = "mi9t")
 		],
 		[
-				InlineKeyboardButton(text = "Xiomi Redmi not 9 Pro",callback_data = "9pro"),InlineKeyboardButton(text = "Xiomi Redmi not 9",callback_data = "r9")
+				InlineKeyboardButton(text = "Xiomi Redmi not 9 Pro",callback_data = "mi9pro"),InlineKeyboardButton(text = "Xiomi Redmi not 9",callback_data = "mir9")
 		],
 		[
 				InlineKeyboardButton(text = "Orqaga",callback_data = "nazad10")
@@ -1336,7 +1336,9 @@ zflip_rangi = InlineKeyboardMarkup(
 back8 = InlineKeyboardMarkup(
 
 	inline_keyboard = [
-
+		[
+			InlineKeyboardButton(text = "6/128",callback_data = "s30")
+		],
 		[
 			InlineKeyboardButton(text = "orqaga",callback_data = "nazad20")
 		],
@@ -1344,10 +1346,293 @@ back8 = InlineKeyboardMarkup(
 
 )
 
+back800 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "6/128",callback_data = "s31")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad72")
+		],
+	],
+
+)
+
+back801 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "6/128",callback_data = "s32")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad73")
+		],
+	],
+
+)
+
+back802 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "4/128",callback_data = "s33")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad74")
+		],
+	],
+
+)
+
+back803 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "4/64",callback_data = "s34")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad75")
+		],
+	],
+
+)
+
+back804 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "3/32",callback_data = "s35"),InlineKeyboardButton(text = "4/64",callback_data = "s36")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad76")
+		],
+	],
+
+)
+
+
+back805 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "6/128",callback_data = "s37"),InlineKeyboardButton(text = "8/128",callback_data = "s38")
+		],
+		[
+			InlineKeyboardButton(text = "8/256",callback_data = "s39")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad77")
+		],
+	],
+
+)
+
+back806 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "8/256",callback_data = "s40"),InlineKeyboardButton(text = "6/128",callback_data = "s41")
+		],
+		[
+			InlineKeyboardButton(text = "8/128",callback_data = "s42"),InlineKeyboardButton(text = "4/128",callback_data = "s43")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad78")
+		],
+	],
+
+)
+
+back807 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "6/128",callback_data = "s44"),InlineKeyboardButton(text = "4/128",callback_data = "s45")
+		],
+		[
+			InlineKeyboardButton(text = "4/64",callback_data = "s46")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad79")
+		],
+	],
+
+)
+
+back808 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+			InlineKeyboardButton(text = "4/64",callback_data = "s47"),InlineKeyboardButton(text = "3/32",callback_data = "s48")
+		],
+		[
+			InlineKeyboardButton(text = "2/32",callback_data = "s49")
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad80")
+		],
+	],
+
+)
+
+sama73_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k1'),InlineKeyboardButton(text = 'green',callback_data = 'k2')
+		],
+		[
+				InlineKeyboardButton(text = 'gray',callback_data = 'k3')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad81')
+		],
+	],
+)
+
+sama53_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k4'),InlineKeyboardButton(text = 'black',callback_data = 'k5')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k6'),InlineKeyboardButton(text = 'fire',callback_data = 'k7')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad82')
+		],
+	],
+)
+
+sama33_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k8'),InlineKeyboardButton(text = 'black',callback_data = 'k9')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k10'),InlineKeyboardButton(text = 'fire',callback_data = 'k11')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad83')
+		],
+	]
+)
+
+sama23_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k12'),InlineKeyboardButton(text = 'black',callback_data = 'k13')
+		],
+		[
+				InlineKeyboardButton(text = 'fire',callback_data = 'k14')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad84')
+		],
+	]
+)
+
+sama22_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k15'),InlineKeyboardButton(text = 'gray',callback_data = 'k16')
+		],
+		[
+				InlineKeyboardButton(text = 'mint',callback_data = 'k17'),InlineKeyboardButton(text = 'purple',callback_data = 'k18')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad85')
+		],
+	]
+)
+
+sama13_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k19'),InlineKeyboardButton(text = 'black',callback_data = 'k20')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k21')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad86')
+		],
+	],
+)
+
+sama72_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k22'),InlineKeyboardButton(text = 'black',callback_data = 'k23')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k24'),InlineKeyboardButton(text = 'purple',callback_data = 'k25')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad87')
+		],
+	],
+)
+
+sama52_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k26'),InlineKeyboardButton(text = 'black',callback_data = 'k27')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k28'),InlineKeyboardButton(text = 'purple',callback_data = 'k29')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad88')
+		],
+	],
+)
+
+sama32_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k30'),InlineKeyboardButton(text = 'black',callback_data = 'k31')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k32'),InlineKeyboardButton(text = 'purple',callback_data = 'k33')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad89')
+		],
+	],
+)
+
+sama03s_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k34'),InlineKeyboardButton(text = 'black',callback_data = 'k35')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k36')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad90')
+		],
+	],
+)
+
+
 back2 = InlineKeyboardMarkup(
 
 	inline_keyboard = [
-
+		[
+				InlineKeyboardButton(text = '8/128Gb',callback_data = 'n1'),InlineKeyboardButton(text = '6/128Gb',callback_data = 'n2')
+		],
 		[
 			InlineKeyboardButton(text = "orqaga",callback_data = "nazad14")
 		],
@@ -1355,13 +1640,516 @@ back2 = InlineKeyboardMarkup(
 
 )
 
+
+back200 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/256Gb',callback_data = 'n3'),InlineKeyboardButton(text = '8/128Gb',callback_data = 'n4')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad91")
+		],
+	],
+
+)
+
+
+
+back201 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/256Gb',callback_data = 'n5'),InlineKeyboardButton(text = '8/128Gb',callback_data = 'n6')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad92")
+		],
+	],
+
+)
+
+
+back202 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/128Gb',callback_data = 'n7'),InlineKeyboardButton(text = '6/128Gb',callback_data = 'n8')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad93")
+		],
+	],
+
+)
+
+back203 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '6/128Gb',callback_data = 'n9'),InlineKeyboardButton(text = '4/128Gb',callback_data = 'n10')
+		],
+		[
+				InlineKeyboardButton(text = '4/64Gb',callback_data = 'n11')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad94")
+		],
+	],
+
+)
+
+back204 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/128Gb',callback_data = 'n12'),InlineKeyboardButton(text = '6/128Gb',callback_data = 'n13')
+		],
+		[
+				InlineKeyboardButton(text = '6/64Gb',callback_data = 'n14')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad95")
+		],
+	],
+
+)
+
+
+back205 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '6/128Gb',callback_data = 'n15'),InlineKeyboardButton(text = '6/64Gb',callback_data = 'n16')
+		],
+		
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad96")
+		],
+	],
+
+)
+
+back206 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '4/128Gb',callback_data = 'n17'),InlineKeyboardButton(text = '4/64Gb',callback_data = 'n18')
+		],
+		
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad97")
+		],
+	],
+
+)
+
+
+back207 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '6/128Gb',callback_data = 'n19'),InlineKeyboardButton(text = '6/64Gb',callback_data = 'n20')
+		],
+		
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad98")
+		],
+	],
+
+)
+
+
+
+back208 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '4/128Gb',callback_data = 'n21'),InlineKeyboardButton(text = '3/64Gb',callback_data = 'n22')
+		],
+		
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad99")
+		],
+	],
+
+)
+
+xiomim11_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k37'),InlineKeyboardButton(text = 'yellov',callback_data = 'k38')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad100')
+		],
+	],
+)
+
+xiomim10tpro_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k39'),InlineKeyboardButton(text = 'gray',callback_data = 'k40')
+		],
+		[
+				InlineKeyboardButton(text = 'blue',callback_data = 'k41')
+		],
+
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad101')
+		],
+	],
+)
+
+xiomipocof3_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k42'),InlineKeyboardButton(text = 'blue',callback_data = 'k43')
+		],
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k44')
+		],
+
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad102')
+		],
+	],
+)
+
+
+
+xiomim10t_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k45'),InlineKeyboardButton(text = 'silver',callback_data = 'k46')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad103')
+		],
+	],
+)
+
+
+xiomimnot10_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'gray',callback_data = 'k47'),InlineKeyboardButton(text = 'blue',callback_data = 'k48')
+		],
+		[
+				InlineKeyboardButton(text = 'silver',callback_data = 'k49'),InlineKeyboardButton(text = 'purple',callback_data = 'k50')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad104')
+		],
+	],
+)
+
+
+xiomimnot10pro_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'gray',callback_data = '51'),InlineKeyboardButton(text = 'blue',callback_data = 'k52')
+		],
+		[
+				InlineKeyboardButton(text = 'silver',callback_data = 'k53'),InlineKeyboardButton(text = 'purple',callback_data = 'k54')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad105')
+		],
+	],
+)
+
+pocox3_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'grey',callback_data = '55'),InlineKeyboardButton(text = 'blue',callback_data = 'k56')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad106')
+		],
+	],
+)
+
+xiomi9t_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'Maritime',callback_data = '57'),InlineKeyboardButton(text = 'blue',callback_data = 'k58')
+		],
+		[
+				InlineKeyboardButton(text = 'Orange',callback_data = 'k59'),InlineKeyboardButton(text = 'Grey',callback_data = 'k60')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad107')
+		],
+	],
+)
+
+
+xiominot9pro_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = '61'),InlineKeyboardButton(text = 'green',callback_data = 'k62')
+		],
+		[
+				InlineKeyboardButton(text = 'starry',callback_data = 'k63')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad108')
+		],
+	],
+)
+
+
+xiominot9_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k64'),InlineKeyboardButton(text = 'green',callback_data = 'k65')
+		],
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k66'),InlineKeyboardButton(text = 'grey',callback_data = 'k67')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad109')
+		],
+	],
+)
+
+
 back3 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '12/256Gb',callback_data = 'kl1'),InlineKeyboardButton(text = '8/256Gb',callback_data = 'kl2')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad15")
+		],
+	],
+
+)
+
+back300 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/128Gb',callback_data = 'kl3')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad110")
+		],
+	],
+
+)
+
+back301 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/128Gb',callback_data = 'kl4'),InlineKeyboardButton(text = '8/256Gb',callback_data = 'kl5')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad111")
+		],
+	],
+
+)
+
+
+back302 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '8/128Gb',callback_data = 'kl6')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad112")
+		],
+	],
+
+)
+
+
+back303 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '4/64Gb',callback_data = 'kl7')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad113")
+		],
+	],
+
+)
+
+
+back304 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '4/64Gb',callback_data = 'kl8')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad114")
+		],
+	],
+
+)
+
+
+back305 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '4/32Gb',callback_data = 'kl9')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad115")
+		],
+	],
+
+)
+
+
+back306 = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = '3/32Gb',callback_data = 'kl10')
+		],
+		[
+			InlineKeyboardButton(text = "orqaga",callback_data = "nazad116")
+		],
+	],
+
+)
+
+
+vivox60_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k68'),InlineKeyboardButton(text = 'blue',callback_data = 'k69')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad117')
+		],
+	],
+)
+
+vivox50_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'silver',callback_data = 'k70'),InlineKeyboardButton(text = 'black',callback_data = 'k71')
+		],
+		[
+				InlineKeyboardButton(text = 'purple',callback_data = 'k72')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad118')
+		],
+	],
+)
+
+
+vivov21_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k72'),InlineKeyboardButton(text = 'blue',callback_data = 'k73')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad119')
+		],
+	],
+)
+
+vivov20_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k74'),InlineKeyboardButton(text = 'pink',callback_data = 'k75')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad120')
+		],
+	],
+)
+
+
+vivoy30_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k76'),InlineKeyboardButton(text = 'blue',callback_data = 'k77')
+		],
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k78')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad121')
+		],
+	],
+)
+
+vivoy20_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k79'),InlineKeyboardButton(text = 'blue',callback_data = 'k80')
+		],
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k81')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad122')
+		],
+	],
+)
+
+vivoy19_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'black',callback_data = 'k82'),InlineKeyboardButton(text = 'blue',callback_data = 'k83')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad123')
+		],
+	],
+)
+
+vivoy12s_rangi = InlineKeyboardMarkup(
+
+	inline_keyboard = [
+		[
+				InlineKeyboardButton(text = 'white',callback_data = 'k84'),InlineKeyboardButton(text = 'blue',callback_data = 'k85')
+		],
+		[
+				InlineKeyboardButton(text = 'orqaga',callback_data = 'nazad124')
+		],
+	],
+)
+
+um_nazad = InlineKeyboardMarkup(
+
 
 	inline_keyboard = [
 
 		[
-			InlineKeyboardButton(text = "orqaga",callback_data = "nazad15")
-		],
+			InlineKeyboardButton(text = "orqaga",callback_data = 'umnazad')
+		],		
 	],
 
 )
