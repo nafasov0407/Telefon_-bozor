@@ -80,24 +80,33 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "r1")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r2")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r3")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r4")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
+@dp.message_handler(content_types = ['contact'])
+async def asa(message):
+    username = message.from_user.username
+    telefon = message.contact['phone_number']
+    # await bot.send_message(chat_id = ,text = "Username:{username}\nTelefon raqam:{telefon}")
+    await message.answer("<b>Iltimos joylashuvni jo'nating</b>",parse_mode = 'HTML',reply_markup = joy)
 
+@dp.message_handler(content_types = ['location'])
+async def asa(message):
+    await message.reply("<b>Hurmatli mijoz siz bilan tez orada aloqaga chiqamiz</b>",parse_mode = 'HTML',reply_markup = um_nazad)
 @dp.callback_query_handler(text = "max12")
 async def UZB(call:CallbackQuery):
     await call.message.answer_photo(
@@ -140,22 +149,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "r5")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r6")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r7")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r8")
 async def UZB(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "max11")
@@ -212,22 +221,22 @@ async def UZ(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "r9")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r10")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r11")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r12")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "maxs")
@@ -282,22 +291,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "r13")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r14")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r15")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "r16")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "ort")
@@ -353,22 +362,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "c1")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c2")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c3")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c4")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "pro12")
@@ -419,22 +428,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "c5")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c6")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c7")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c8")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "pro11")
@@ -489,22 +498,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "c9")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c10")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c11")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c12")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -558,22 +567,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "c13")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c14")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c15")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c16")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -625,22 +634,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "c17")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c18")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c19")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "c20")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -694,22 +703,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g1")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g2")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g3")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g4")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "min12")
@@ -760,22 +769,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g5")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g6")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g7")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g8")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "min11")
@@ -826,22 +835,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g9")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g10")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g11")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g12")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -892,22 +901,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g13")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g14")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g15")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g16")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -958,22 +967,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g17")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g18")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g19")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g20")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1024,22 +1033,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g21")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g22")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g23")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g24")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1095,22 +1104,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g25")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g26")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g27")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g28")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1166,22 +1175,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "g29")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g30")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g31")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "g32")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1267,22 +1276,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e1")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e2")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e3")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e4")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1326,21 +1335,21 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e5")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e6")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 @dp.callback_query_handler(text = "e7")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e8")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "s20f")
@@ -1390,26 +1399,26 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e9")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e10")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 @dp.callback_query_handler(text = "e11")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e12")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e13")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "s21u")
@@ -1456,12 +1465,12 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e14")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e15")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1507,17 +1516,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e16")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e17")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e18")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1565,22 +1574,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e19")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e20")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e21")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e22")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1625,12 +1634,12 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e23")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e24")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1673,17 +1682,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e25")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e26")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e27")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1727,22 +1736,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "e28")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e29")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e30")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "e31")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1797,17 +1806,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f4")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f5")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f6")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1856,17 +1865,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f1")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f2")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f3")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1910,17 +1919,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f7")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f8")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f9")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -1964,17 +1973,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f10")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f11")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f12")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2020,17 +2029,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f13")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f14")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f15")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2077,22 +2086,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f16")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f17")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f18")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f19")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2125,12 +2134,12 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f20")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f21")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2163,12 +2172,12 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "f22")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "f23")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2215,17 +2224,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k1")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k2")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k3")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2269,22 +2278,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k4")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k5")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k6")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k7")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2329,22 +2338,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k8")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k9")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k10")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k11")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2388,22 +2397,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k15")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k16")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k17")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k18")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "a23")
@@ -2445,17 +2454,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k12")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k13")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k14")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "a13")
@@ -2502,17 +2511,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k19")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k20")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k21")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2567,23 +2576,23 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k22")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k23")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k24")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k25")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "a52")
@@ -2642,22 +2651,22 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k26")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 @dp.callback_query_handler(text = "k27")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k28")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k29")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2713,23 +2722,23 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k30")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k31")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k32")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k33")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2781,17 +2790,17 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k34")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k35")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k36")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2849,13 +2858,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k37")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k38")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2903,18 +2912,18 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k39")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "k40")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k41")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -2962,19 +2971,19 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k42")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k43")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k44")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "mit10")
@@ -3022,13 +3031,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k45")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k46")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3087,25 +3096,25 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k47")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k48")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k49")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k50")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3163,25 +3172,25 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k51")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k52")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k53")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k54")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3231,13 +3240,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k55")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k56")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3285,28 +3294,28 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k57")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 
 @dp.callback_query_handler(text = "k58")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 
 @dp.callback_query_handler(text = "k59")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 
 @dp.callback_query_handler(text = "k60")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3354,19 +3363,19 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k61")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k62")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k63")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3414,28 +3423,28 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k64")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 
 @dp.callback_query_handler(text = "k65")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 
 @dp.callback_query_handler(text = "k66")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 
 @dp.callback_query_handler(text = "k67")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3496,13 +3505,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k68")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k69")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3547,19 +3556,19 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k70")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k71")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k72")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3609,13 +3618,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k73")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k74")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "v20")
@@ -3657,13 +3666,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k74")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k75")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3709,19 +3718,19 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k76")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k77")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k78")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 @dp.callback_query_handler(text = "y20")
@@ -3763,19 +3772,19 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k79")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k80")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k81")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3815,13 +3824,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k82")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k83")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
@@ -3860,13 +3869,13 @@ async def UZB(call:CallbackQuery):
 
 @dp.callback_query_handler(text = "k84")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 
 @dp.callback_query_handler(text = "k85")
 async def UZ(call:CallbackQuery):
-    await call.message.answer("😊😊Xaridingiz uchun raxmat😊😊",reply_markup = um_nazad)
+    await call.message.answer("Iltimos telefon raqamingizni jo'nating",reply_markup = raqam)
     await call.message.delete()
 
 

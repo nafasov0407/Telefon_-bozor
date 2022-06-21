@@ -25,6 +25,26 @@ tur = InlineKeyboardMarkup(
 	],
 )
 
+
+raqam = ReplyKeyboardMarkup(
+	keyboard = [
+		[
+				KeyboardButton(text="📞Telefon raqam",request_contact = True)
+		],
+	],
+	resize_keyboard = True
+)
+
+
+joy = ReplyKeyboardMarkup(
+	keyboard = [
+		[
+				KeyboardButton(text="📍Joylashuv yuborish",request_location = True)
+		],
+	],
+	resize_keyboard = True
+)
+
 # """""""""""""""""""""""""""""""""""""""""""""""""""""""""""IPONE"""""""'"""""""""""""""""""""""""""""""""""""""""'
 
 ipon_menu = InlineKeyboardMarkup(
